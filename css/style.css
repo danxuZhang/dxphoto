@@ -2,3 +2,72 @@
     margin: 0;
     padding: 0;
 }
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid white;
+    margin: 1em 0;
+    padding: 0;
+}
+
+body {
+    background-color: gray;
+    font-size: 15px;
+    line-height: 1.5;
+    font-family: Airal, Helvetica, sans-serif;
+}
+
+.title-container {
+    background-color: dimgray;
+    alignment: center;
+    text-align: center;
+    color: white;
+}
+
+.title-container h1 {
+    padding-top: 10px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    border-bottom: 0;
+}
+
+.title-container p {
+    border-top: 0;
+    padding-top: 0;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.tabs-container {
+    margin-top: 5px;
+    margin-left: 30%;
+    margin-right: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    color: white;
+}
+
+.tabs-container .tab-item {
+    font-size: large;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 500px) {
+    .tabs-container {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+}
+
+
+footer {
+    color: white;
+    text-align: center;
+    font-size: x-small;
+}
