@@ -13,14 +13,14 @@ hr {
 }
 
 body {
-    background-color: gray;
+    background-color: dimgray;
     font-size: 15px;
     line-height: 1.5;
     font-family: Airal, Helvetica, sans-serif;
 }
 
 .title-container {
-    background-color: dimgray;
+    background-color: gray;
     alignment: center;
     text-align: center;
     color: white;
@@ -42,6 +42,9 @@ body {
 
 .title-container a {
     text-decoration: none;
+}
+
+.title-container a:visited {
     color: white;
 }
 
@@ -64,7 +67,16 @@ body {
 
 .tab-item a {
     text-decoration: none;
+}
+
+.tab-item a:visited {
     color: white;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-size: x-small;
 }
 
 @media screen and (max-width: 500px) {
@@ -73,11 +85,4 @@ body {
         margin-right: 5%;
     }
 
-}
-
-
-footer {
-    color: white;
-    text-align: center;
-    font-size: x-small;
 }
