@@ -40,6 +40,11 @@ body {
     margin-bottom: 10px;
 }
 
+.title-container a {
+    text-decoration: none;
+    color: white;
+}
+
 .tabs-container {
     margin-top: 5px;
     margin-left: 30%;
@@ -55,6 +60,11 @@ body {
 .tabs-container .tab-item {
     font-size: large;
     font-weight: bold;
+}
+
+.tab-item a {
+    text-decoration: none;
+    color: white;
 }
 
 @media screen and (max-width: 500px) {
